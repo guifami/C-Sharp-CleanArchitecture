@@ -1,0 +1,3 @@
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\bin\Release\net5.0\publish\CleanArchMvc.Domain.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\bin\Release\net5.0\publish\CleanArchMvc.Domain.deps.json
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\bin\Release\net5.0\publish\CleanArchMvc.Domain.pdb

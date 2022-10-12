@@ -1,0 +1,15 @@
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\CleanArchMvc.Application.deps.json
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\CleanArchMvc.Application.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\CleanArchMvc.Application.pdb
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\CleanArchMvc.Domain.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.csproj.AssemblyReference.cache
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.AssemblyInfoInputs.cache
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.AssemblyInfo.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.csproj.CoreCompileInputs.cache
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.csproj.CopyComplete
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\refint\CleanArchMvc.Application.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\CleanArchMvc.Application.pdb
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\obj\Release\net5.0\ref\CleanArchMvc.Application.dll

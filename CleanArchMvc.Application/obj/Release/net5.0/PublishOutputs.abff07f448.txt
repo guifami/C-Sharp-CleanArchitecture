@@ -1,0 +1,8 @@
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\CleanArchMvc.Application.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\CleanArchMvc.Application.deps.json
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\CleanArchMvc.Application.pdb
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\AutoMapper.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\MediatR.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\MediatR.Contracts.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\CleanArchMvc.Domain.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Application\bin\Release\net5.0\publish\CleanArchMvc.Domain.pdb
