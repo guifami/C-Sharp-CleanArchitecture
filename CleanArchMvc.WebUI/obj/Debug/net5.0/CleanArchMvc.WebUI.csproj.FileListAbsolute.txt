@@ -332,7 +332,6 @@ C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\ne
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.input.cache
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.TagHelpers.output.cache
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.RazorCoreGenerate.cache
-C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
@@ -397,3 +396,13 @@ C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\ne
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.dll
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Contracts.dll
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Create.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Edit.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Delete.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Details.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.WebUI\obj\Debug\net5.0\Razor\Views\Products\Edit.cshtml.g.cs

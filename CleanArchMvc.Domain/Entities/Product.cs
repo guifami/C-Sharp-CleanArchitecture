@@ -1,4 +1,5 @@
-﻿using CleanArchMvc.Domain.Validation;
+﻿using CleanArchMvc.Domain.Primitives;
+using CleanArchMvc.Domain.Validation;
 
 namespace CleanArchMvc.Domain.Entities
 {

@@ -39,8 +39,9 @@ namespace CleanArchMvc.Domain.Tests
         [Fact(DisplayName = "Criar produto com nome da imagem muito longo")]
         public void CreateProduct_LongImageName_DomainExceptionLongImageName()
         {
+            string o = new('o', 240);
             Action action = () => new Product(1, "Nome do Produto", "Descrição do Produto", 9.99m,
-                99, "Imagem do Produto com nome muuuuuuito loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooogggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
+                99, $"Imagem do Produto com nome {o}");
 
             action.Should()
                 .Throw<DomainExceptionValidation>()
