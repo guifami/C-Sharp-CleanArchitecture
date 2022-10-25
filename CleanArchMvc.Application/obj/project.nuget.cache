@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7PFXSJdYhCRvXkepkYsNMCUoZbpV0zk1lRudLGi/saMVXcVdxQDGY6NMIr4gHnwFs4zLFrnrDV5IRAcz/fnS0g==",
+  "dgSpecHash": "L0eKhKhWIJrqwm2sfSMJJlDsBL1dL4duh4QGqHEspWM4fAsIO4HjpmHUsSIEB7I+tuabhrtfFKSSQvD4GmUmSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
+  "projectFilePath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Application\\CleanArchMvc.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\guifami\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\guifami\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
-    "C:\\Users\\guifami\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\guifami\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\AMD\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\AMD\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

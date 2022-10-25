@@ -22,7 +22,7 @@ namespace CleanArchMvc.Application.Products.Handlers
             var product = await _productRepository.GetByIdAsync(request.Id);
 
             if (product == null)
-                throw new ApplicationException("Error creating entity");
+                throw new ApplicationException("Erro ao criar entidade.");
             else
             {
                 var result = await _productRepository.RemoveAsync(product);

@@ -1,12 +1,13 @@
-﻿using System;
-using CleanArchMvc.Application.DTOs;
+﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
-using System.Linq.Expressions;
 
 namespace CleanArchMvc.WebUI.Controllers
 {
+    [Authorize]
     public class CategoriesController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -15,13 +16,6 @@ namespace CleanArchMvc.WebUI.Controllers
             _categoryService = categoryService;
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> Index()
-        //{
-        //    var categories = await _categoryService.GetCategories();
-        //    return View(categories);
-        //}
-
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -29,38 +23,33 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(categories);
         }
 
-        [HttpGet]
+        [HttpGet()]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(CategoryDTO categoryDto)
+        public async Task<IActionResult> Create(CategoryDTO category)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                await _categoryService.Add(categoryDto);
+                await _categoryService.Add(category);
                 return RedirectToAction(nameof(Index));
             }
-            return View(categoryDto);
+            return View(category);
         }
 
-        [HttpGet]
+        [HttpGet()]
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null) 
-                return NotFound();
-
+            if (id == null) return NotFound();
             var categoryDto = await _categoryService.GetById(id);
-
-            if (categoryDto == null) 
-                return NotFound();
-
+            if (categoryDto == null) return NotFound();
             return View(categoryDto);
         }
 
-        [HttpPost]
+        [HttpPost()]
         public async Task<IActionResult> Edit(CategoryDTO categoryDto)
         {
             if (ModelState.IsValid)
@@ -70,7 +59,6 @@ namespace CleanArchMvc.WebUI.Controllers
                     await _categoryService.Update(categoryDto);
                 }
                 catch (Exception)
-                    
                 {
                     throw;
                 }
@@ -79,21 +67,20 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(categoryDto);
         }
 
-        [HttpGet]
+        [HttpGet()]
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null) 
+            if (id == null)
                 return NotFound();
 
             var categoryDto = await _categoryService.GetById(id);
 
-            if (categoryDto == null) 
-                return NotFound();
+            if (categoryDto == null) return NotFound();
 
             return View(categoryDto);
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost(), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _categoryService.Remove(id);

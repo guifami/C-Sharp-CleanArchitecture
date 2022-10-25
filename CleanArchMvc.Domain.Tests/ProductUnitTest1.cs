@@ -41,7 +41,7 @@ namespace CleanArchMvc.Domain.Tests
         {
             string o = new('o', 240);
             Action action = () => new Product(1, "Nome do Produto", "Descrição do Produto", 9.99m,
-                99, $"Imagem do Produto com nome {o}");
+                99, $"Imagem do Produto com nome l{o}ngo");
 
             action.Should()
                 .Throw<DomainExceptionValidation>()

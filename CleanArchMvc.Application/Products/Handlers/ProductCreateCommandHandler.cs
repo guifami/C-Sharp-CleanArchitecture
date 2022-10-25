@@ -21,7 +21,7 @@ namespace CleanArchMvc.Application.Products.Handlers
             var product = new Product(request.Name, request.Description, request.Price, request.Stock, request.Image);
 
             if (product == null)
-                throw new ApplicationException("Error creating entity");
+                throw new ApplicationException("Erro ao criar entidade.");
             else
             {
                 product.CategoryId = request.CategoryId;

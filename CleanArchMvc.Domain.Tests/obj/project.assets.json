@@ -6205,19 +6205,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\guifami\\.nuget\\packages\\": {}
+    "C:\\Users\\AMD\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj",
       "projectName": "CleanArchMvc.Domain.Tests",
-      "projectPath": "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj",
-      "packagesPath": "C:\\Users\\guifami\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Domain.Tests\\obj\\",
+      "projectPath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain.Tests\\CleanArchMvc.Domain.Tests.csproj",
+      "packagesPath": "C:\\Users\\AMD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\guifami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AMD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6231,8 +6236,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
-              "projectPath": "C:\\Users\\guifami\\Documents\\Projetos\\CleanArchMvc\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
+            "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj": {
+              "projectPath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj"
             }
           }
         }
@@ -6288,7 +6293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

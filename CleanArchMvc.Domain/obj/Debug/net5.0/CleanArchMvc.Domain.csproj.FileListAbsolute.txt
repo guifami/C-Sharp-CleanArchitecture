@@ -10,3 +10,15 @@ C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\n
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\refint\CleanArchMvc.Domain.dll
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.pdb
 C:\Users\guifami\Documents\Projetos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\ref\CleanArchMvc.Domain.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.deps.json
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.csproj.AssemblyReference.cache
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.AssemblyInfoInputs.cache
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.AssemblyInfo.cs
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.csproj.CoreCompileInputs.cache
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\refint\CleanArchMvc.Domain.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.Domain\obj\Debug\net5.0\ref\CleanArchMvc.Domain.dll

@@ -1,5 +1,6 @@
 ﻿using CleanArchMvc.Application.DTOs;
 using CleanArchMvc.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -13,11 +14,15 @@ namespace CleanArchMvc.WebUI.Controllers
         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
         private readonly IWebHostEnvironment _environment;
-        public ProductsController(IProductService productService, ICategoryService categoryService, IWebHostEnvironment environment)
+
+        public ProductsController(IProductService productAppService,
+            ICategoryService categoryService, IWebHostEnvironment environment)
         {
-            _productService = productService;
+            _productService = productAppService;
             _categoryService = categoryService;
             _environment = environment;
+
+
         }
 
         [HttpGet]
@@ -27,7 +32,7 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(products);
         }
 
-        [HttpGet]
+        [HttpGet()]
         public async Task<IActionResult> Create()
         {
             ViewBag.CategoryId =
@@ -36,7 +41,7 @@ namespace CleanArchMvc.WebUI.Controllers
             return View();
         }
 
-        [HttpPost]        
+        [HttpPost]
         public async Task<IActionResult> Create(ProductDTO productDto)
         {
             if (ModelState.IsValid)
@@ -47,24 +52,21 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(productDto);
         }
 
-        [HttpGet]
+        [HttpGet()]
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-                return NotFound();
+            if (id == null) return NotFound();
             var productDto = await _productService.GetById(id);
 
-            if (productDto == null)
-                return NotFound();
+            if (productDto == null) return NotFound();
 
             var categories = await _categoryService.GetCategories();
-
-            ViewBag.CategoryId = new SelectList(categories, "Id", "Name",productDto.CategoryId);
+            ViewBag.CategoryId = new SelectList(categories, "Id", "Name", productDto.CategoryId);
 
             return View(productDto);
         }
 
-        [HttpPost]
+        [HttpPost()]
         public async Task<IActionResult> Edit(ProductDTO productDto)
         {
             if (ModelState.IsValid)
@@ -75,7 +77,8 @@ namespace CleanArchMvc.WebUI.Controllers
             return View(productDto);
         }
 
-        [HttpGet]
+        [Authorize(Roles ="Admin")]
+        [HttpGet()]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -83,13 +86,12 @@ namespace CleanArchMvc.WebUI.Controllers
 
             var productDto = await _productService.GetById(id);
 
-            if (productDto == null)
-                return NotFound();
+            if (productDto == null) return NotFound();
 
             return View(productDto);
         }
 
-        [HttpPost, ActionName("Delete")]
+        [HttpPost(), ActionName("Delete")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             await _productService.Remove(id);
@@ -98,18 +100,14 @@ namespace CleanArchMvc.WebUI.Controllers
 
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-                return NotFound();
-
+            if (id == null) return NotFound();
             var productDto = await _productService.GetById(id);
 
-            if (productDto == null)
-                return NotFound();
-
+            if (productDto == null) return NotFound();
             var wwwroot = _environment.WebRootPath;
             var image = Path.Combine(wwwroot, "images\\" + productDto.Image);
             var exists = System.IO.File.Exists(image);
-            ViewBag.ImageExists = exists;
+            ViewBag.ImageExist = exists;
 
             return View(productDto);
         }
