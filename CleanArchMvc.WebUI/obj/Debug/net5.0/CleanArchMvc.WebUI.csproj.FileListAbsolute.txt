@@ -728,7 +728,6 @@ C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -823,3 +822,8 @@ C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\obj
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.pdb
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\obj\Debug\net5.0\CleanArchMvc.WebUI.genruntimeconfig.cache
 C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\obj\Debug\net5.0\ref\CleanArchMvc.WebUI.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\AMD\Documents\Projetos\C-Sharp-CleanArchitecture\CleanArchMvc.WebUI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
