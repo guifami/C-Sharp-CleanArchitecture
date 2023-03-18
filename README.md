@@ -1,7 +1,7 @@
 # API e MVC Clean Architecture
 
 API e MVC para gerenciamento de categorias e produtos seguindo as diretrizes da **Clean Architecture** e as melhores práticas de programação.<br>
-**Tecnologias e abordagens: MVC, SOLID, Repository, EntityFrameworkCore, CQRS, SqlServer, Testes unitários e Docker.**
+**Tecnologias e abordagens: .NET Core, MVC, SOLID, Repository, EntityFrameworkCore, CQRS, SqlServer, Testes unitários e Docker.**
 
 Projeto contém recuperação de dados em Cookies, Autenticação de Segurança usando JWT e Identity.
 <br>
