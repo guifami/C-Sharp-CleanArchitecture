@@ -28,7 +28,7 @@ namespace CleanArchMvc.API.Controllers
         }
 
         [HttpPost("CreateUser")]
-        [ApiExplorerSettings(IgnoreApi = true)]
+        //[ApiExplorerSettings(IgnoreApi = true)]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> CreateUser([FromBody] LoginModel userInfo)
         {

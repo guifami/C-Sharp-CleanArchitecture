@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
       "projectName": "CleanArchMvc.Domain",
-      "projectPath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
+      "projectPath": "c:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\CleanArchMvc.Domain.csproj",
       "packagesPath": "C:\\Users\\AMD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\obj\\",
+      "outputPath": "c:\\Users\\AMD\\Documents\\Projetos\\C-Sharp-CleanArchitecture\\CleanArchMvc.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
